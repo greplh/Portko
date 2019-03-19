@@ -39,16 +39,16 @@ html,body{
 .navbar .dropdown a { 
   background-color: #343a40;
   color:red;
-  border-radius: 10px;
 }
 /*Barvy těch hlavních navigátorů*/
 #navbarDropdownMenuLink{
     color: rgb(255,0,0);
 
 }
-#o-nas > li:nth-child(4){
-    color: rgb(255,0,0);
-}
+
 .dropdown:hover .dropdown-menu{
 	display: block;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%) ;
 }
